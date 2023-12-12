@@ -9,6 +9,10 @@ public class Program {
         String url = "jdbc:mysql://localhost:3306/northwind";
         String user = "root";
 
+        String myPassword = System.getenv("MY_DB_PASSWORD");
+
+
+
         String password = "*****";
         String query = "SELECT * FROM Products";
 
@@ -34,11 +38,11 @@ public class Program {
 
         switch (userOption){
             case 1: {
-                getProducts(url, user, password, query1);
+                getProducts(url, user, myPassword, query1);
             }break;
-            case 2: {getCustomers(url, user, password, query2);}
+            case 2: {getCustomers(url, user, myPassword, query2);}
             break;
-            case 3: displayAll(url,user,password,query3,scanner);
+            case 3: displayAll(url,user,myPassword,query3,scanner);
             break;
         }
 
