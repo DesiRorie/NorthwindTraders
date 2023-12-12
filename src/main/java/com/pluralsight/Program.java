@@ -12,7 +12,11 @@ public class Program {
         String password = "*****";
         String query = "SELECT * FROM Products";
 
+
         String password = "*******";
+
+
+
 //        String query = "SELECT ProductID, ProductName, UnitPrice, UnitsInStock FROM Products WHERE ProductID = ?";
         String query1 = "SELECT * FROM Products";
         String query2 = "SELECT * FROM Customers";
