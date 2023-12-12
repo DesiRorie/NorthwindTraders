@@ -8,16 +8,16 @@ public class Program {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/northwind";
         String user = "root";
-<<<<<<< HEAD
+
         String password = "*****";
         String query = "SELECT * FROM Products";
-=======
+
         String password = "*******";
 //        String query = "SELECT ProductID, ProductName, UnitPrice, UnitsInStock FROM Products WHERE ProductID = ?";
         String query1 = "SELECT * FROM Products";
         String query2 = "SELECT * FROM Customers";
         String query3 = "SELECT * FROM Categories ORDER BY CategoryID";
->>>>>>> 9df870c (first)
+
 
 
  Scanner scanner = new Scanner(System.in);
