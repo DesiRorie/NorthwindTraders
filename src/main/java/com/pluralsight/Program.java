@@ -13,7 +13,7 @@ public class Program {
         String query = "SELECT * FROM Products";
 
 
-        String password = "*******";
+
 
 
 
