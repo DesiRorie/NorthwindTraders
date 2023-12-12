@@ -6,7 +6,7 @@ public class Program {
 
         String url = "jdbc:mysql://localhost:3306/northwind";
         String user = "root";
-        String password = "8329135D";
+        String password = "*****";
         String query = "SELECT * FROM Products";
 
         try {
