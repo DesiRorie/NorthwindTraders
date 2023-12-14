@@ -1,12 +1,8 @@
 package com.pluralsight;
 
 import org.apache.commons.dbcp2.BasicDataSource;
-
-import java.security.spec.RSAOtherPrimeInfo;
 import java.sql.*;
 import java.util.Scanner;
-import javax.sql.DataSource;
-
 public class Program {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/northwind";
